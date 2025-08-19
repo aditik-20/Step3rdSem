@@ -4,7 +4,7 @@ public class VowelConsonantCounter {
 
     public static String classifyChar(char ch) {
         if (ch >= 'A' && ch <= 'Z') {
-            ch = (char)(ch + 32); // Convert to lowercase using ASCII
+            ch = (char)(ch + 32);
         }
 
         if (ch >= 'a' && ch <= 'z') {

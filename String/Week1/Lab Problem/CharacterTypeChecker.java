@@ -4,7 +4,7 @@ public class CharacterTypeChecker {
 
     public static String classifyChar(char ch) {
         if (ch >= 'A' && ch <= 'Z') {
-            ch = (char)(ch + 32); // Convert uppercase to lowercase using ASCII
+            ch = (char)(ch + 32);
         }
 
         if (ch >= 'a' && ch <= 'z') {
@@ -26,7 +26,6 @@ public class CharacterTypeChecker {
                 length++;
             }
         } catch (Exception e) {
-            // end of string reached
         }
 
         String[][] result = new String[length][2];

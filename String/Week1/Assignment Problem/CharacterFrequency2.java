@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CharacterFrequency {
+public class CharacterFrequency2 {
 
     public static char[] uniqueCharacters(String text) {
         String unique = "";
